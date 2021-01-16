@@ -47,62 +47,121 @@ span {
   font-size: 35px;
 }
 
-header {
-  background-color: black;
-  color: white;
-  padding: 30px 0;
+@media screen and (max-width: 1024px) {
+  header {
+    background-color: black;
+    color: white;
+    padding: 30px 0;
+  }
+
+  .header-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .header-nav > a {
+    color: white;
+    border-bottom: 1px solid gold;
+  }
 }
 
-header > a {
-  color: #fff;
+@media screen and (min-width: 1024px) {
+  header {
+    background-color: black;
+    color: white;
+    padding: 30px 30px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-nav > a {
+    color: #fff;
+    padding: 10px 0px;
+    margin: 0 30px;
+    border-bottom: 1px solid gold;
+  }
 }
 
-.header-nav {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  max-width: 500px;
-  margin: 0 auto;
+@media screen and (max-width: 1024px) {
+  .me-container {
+    background-color: black;
+  }
+
+  .me-figure {
+    margin: 0;
+  }
+
+  .me {
+    display: block;
+    margin: 0 auto;
+    border-radius: 1000px;
+    max-width: 300px;
+  }
+
+  .me-fig {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 35px;
+    color: gold;
+    padding: 30px;
+  }
 }
 
-.header-nav > a {
-  color: white;
-  border-bottom: 1px solid gold;
+@media screen and (min-width: 1024px) {
+  .me-container {
+    background-color: black;
+    padding: 5%;
+  }
+  .me-figure {
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .me {
+    width: 30%;
+    max-width: 400px;
+    border-radius: 1000px;
+  }
+
+  .me-fig {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 50px;
+    color: gold;
+  }
 }
 
-.me-container {
-  background-color: black;
+@media screen and (max-width: 1024px) {
+  .info-container {
+    padding: 50px 0;
+    font-weight: bold;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .my-interets {
+    margin-bottom: 30px;
+  }
 }
 
-.me-figure {
-  margin: 0;
-}
+@media screen and (min-width: 1024px) {
+  .info-container {
+    padding: 10% 5%;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+  }
 
-.me {
-  display: block;
-  margin: 0 auto;
-  border-radius: 1000px;
-  max-width: 300px;
-}
+  .my-interets {
+    padding: 0 50px;
+  }
 
-.me-fig {
-  font-family: 'Reenie Beanie', cursive;
-  font-size: 35px;
-  color: gold;
-  padding: 30px;
+  .my-skills {
+    padding: 0 50px;
+  }
 }
-
-.info-container {
-  padding: 50px 0;
-  font-weight: bol;
-  max-width: 90%;
-  margin: 0 auto;
-}
-
-.my-interets {
-  margin-bottom: 30px;
-}
-
 .red,
 .blue,
 .green,
@@ -141,35 +200,79 @@ header > a {
   background-color: brown;
 }
 
-.contact-container {
-  border: 10px solid black;
-  padding: 30px 0;
+@media screen and (max-width: 1024px) {
+  .contact-container {
+    border: 10px solid black;
+    padding: 30px 0;
+  }
+
+  .contact-container a {
+    color: black;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+  }
+
+  .telefon {
+    padding-bottom: 30px;
+  }
 }
 
-.contact-container a {
-  color: black;
-  border-bottom: 1px solid black;
-  font-weight: bold;
+@media screen and (min-width: 1024px) {
+  .contact-container {
+    border: 10px solid black;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-container a {
+    color: black;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+  }
+
+  .telefon {
+    padding: 0 50px;
+  }
+
+  .mail {
+    padding: 0 50px;
+  }
 }
 
-.telefon {
-  padding-bottom: 30px;
+@media screen and (max-width: 1024px) {
+  .social-container {
+    padding: 50px 0;
+  }
+
+  .social-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .social-logos > a {
+    border: none;
+    padding: 30px 30px 0 30px;
+  }
 }
 
-.social-container {
-  padding: 50px 0;
-}
+@media screen and (min-width: 1024px) {
+  .social-container {
+    padding: 10%;
+  }
 
-.social-logos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
+  .social-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-.social-logos > a {
-  border: none;
-  padding: 30px 30px 0 30px;
+  .social-logos > a {
+    border: none;
+    padding: 30px 50px 0 50px;
+  }
 }
 
 .about-me-container {

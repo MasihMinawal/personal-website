@@ -1,219 +1,225 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Nanum Gothic', sans-serif;
-    font-size: 112.5%;
-    line-height: 1.5;
-    text-align: center;
-
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 112.5%;
+  line-height: 1.5;
+  text-align: center;
 }
 
-h1, h2, h3 {
-    font-family: 'Bebas Neue', cursive;
+h1,
+h2,
+h3 {
+  font-family: 'Bebas Neue', cursive;
+  margin: 0;
 }
 
 h1 {
-    margin: 0;
-    padding: 30px;
-    color: gold;
-}
-
-h2 {
-    margin: 0;
-    padding-bottom: 10px;
-}
-
-
-
-h3 {
-    margin: 0px;
+  color: gold;
 }
 
 a {
-    text-decoration: none;
-    border-bottom: 1px solid gold;
-    font-weight: bold;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 ul {
-    list-style-type: none;
-    list-style-position: outside;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    color: white;
+  list-style-type: none;
+  list-style-position: outside;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
 }
 
 li {
-    background-color: red;
-    padding: 10px;
-    margin: 5px 10px;
-    border-radius: 3px;
+  background-color: red;
+  padding: 10px;
+  margin: 5px 10px;
+  border-radius: 3px;
 }
 
 span {
-    font-size: 35px;
+  font-size: 35px;
 }
 
 header {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
+  padding: 30px 0;
 }
 
 header > a {
-    color: #fff;
+  color: #fff;
 }
 
-.navigation {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: stretch;
-    padding-bottom: 30px;
+.header-nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
-.navigation > a {
-    color: white;
+.header-nav > a {
+  color: white;
+  border-bottom: 1px solid gold;
 }
 
-.profil {
-    background-color: black;
-    margin-top: -1px;
+.me-container {
+  background-color: black;
 }
 
-.profilbild {
-    display: block;
-    margin: 0 auto;
-    border-radius: 1000px;
+.me-figure {
+  margin: 0;
 }
 
-.fig {
-    font-family: 'Reenie Beanie', cursive;
-    font-size: 35px;
-    color: gold;
-    padding: 30px;
+.me {
+  display: block;
+  margin: 0 auto;
+  border-radius: 1000px;
+  max-width: 300px;
 }
 
-.info {
-    padding: 50px 0;
-    font-weight: bol;
-    max-width: 90%;
-    margin: 0 auto;
+.me-fig {
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 35px;
+  color: gold;
+  padding: 30px;
 }
 
-.interessen {
-    margin-bottom: 30px;
+.info-container {
+  padding: 50px 0;
+  font-weight: bol;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.my-interets {
+  margin-bottom: 30px;
+}
+
+.red,
+.blue,
+.green,
+.pink,
+.gold,
+.purple,
+.brown {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
 .red {
-    background-color: red;
+  background-color: red;
 }
 
 .blue {
-    background-color: blue;
+  background-color: blue;
 }
 
 .green {
-    background-color: green;
+  background-color: green;
 }
 
 .pink {
-    background-color: salmon;
+  background-color: salmon;
 }
 
 .gold {
-    background-color: gold;
+  background-color: gold;
 }
 
 .purple {
-    background-color: purple;
+  background-color: purple;
 }
 
 .brown {
-    background-color: brown;
+  background-color: brown;
 }
 
-.contact {
-    border: 10px solid black;
-    padding: 30px;
+.contact-container {
+  border: 10px solid black;
+  padding: 30px 0;
 }
 
-.contact a {
-    color: black;
-    border-bottom: 1px solid black;
-    font-weight: bold;
+.contact-container a {
+  color: black;
+  border-bottom: 1px solid black;
+  font-weight: bold;
 }
 
 .telefon {
-    margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
-.social {
-    padding: 50px;
+.social-container {
+  padding: 50px 0;
 }
 
-.social > a {
-    display: inline-block;
-    border: none;
-    padding: 20px;
+.social-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.social img {
-    width: 100%;
-    max-width: 200px;
-    height: auto;
+.social-logos > a {
+  border: none;
+  padding: 30px 30px 0 30px;
 }
 
-.about-me {
-    color: white;
-    background-color: black;
-    margin: 0 auto;
-    padding: 30px 0;
+.about-me-container {
+  color: white;
+  background-color: black;
+  margin: 0 auto;
+  padding: 30px 0;
 }
 
-.about-me > h2 {
-    color: gold;
+.about-me-container > h2 {
+  color: gold;
 }
 
-.about-me > p {
-    padding: 0;
-    width: 90%;
-    margin: 0 auto;
+.about-me-container > p {
+  padding: 0;
+  width: 90%;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .cv {
-    padding: 50px 0;
+  padding: 50px 0;
 }
 
 .cv-table {
-    text-align: left;
-    width: 90%;
-    margin: 0 auto;
+  text-align: left;
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 .cv-table th {
-    padding-right: 20px;
-    padding-left: 5px;
-    border: 1px solid black;
-    border-radius: 3px;
+  padding: 10px 20px 10px 10px;
+  border-radius: 3px;
+  border: 3px solid black;
 }
 
 .cv-table td {
-    padding-left: 5px;
-    border: 1px solid black;
-    border-radius: 3px;
+  padding: 10px;
+  border-radius: 3px;
+  border: 3px solid black;
 }
 
 footer {
-    color: white;
-    background-color: black;
-    padding: 30px;
+  color: white;
+  background-color: black;
+  padding: 30px;
 }
 
 footer > p {
-    margin: 0;
-    font-size: 14px;
+  margin: 0;
+  font-size: 14px;
 }

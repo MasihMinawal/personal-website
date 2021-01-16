@@ -1,96 +1,120 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Website</title>
-    <link rel="stylesheet" href="styles/index.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nanum+Gothic:wght@400;700&family=Reenie+Beanie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nanum+Gothic:wght@400;700&family=Reenie+Beanie&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
     <header>
-        <h1>Abdullah Minawal</h1>
-        <nav class="navigation">
-            <a href="#info">Info</a>
-            <a href="#contact">Contact</a>
-            <a href="#about-me">About</a>
-            <a href="#cv">CV</a>
-        </nav>
+      <h1>Abdullah Minawal</h1>
+      <nav class="header-nav">
+        <a href="#info">Info</a>
+        <a href="#contact">Contact</a>
+        <a href="#about-me">About</a>
+        <a href="#cv">Bio</a>
+      </nav>
     </header>
     <main>
-    <section class="profil">
-        <img src="images/Abdullah Minawal.png" alt="Das ist Abdullah Minawal" width="80%" height="auto;" class="profilbild">
-        <figcaption class="fig">Hi, ich bin Abdullah!</figcaption>
-    </section>
-    <section id="info" class="info">
-        <div class="interessen">
-        <h2>My Interests <span>✌︎</span></h2>
-        <ul>
-            <li class="red">Lesen</li>
-            <li class="green">Kochen</li>
+      <section class="me-container">
+        <figure class="me-figure">
+          <img
+            src="images/Abdullah Minawal.png"
+            alt="Das ist Abdullah Minawal"
+            width="80%"
+            height="auto;"
+            class="me"
+          />
+          <figcaption class="me-fig">Hi, ich bin Abdullah!</figcaption>
+        </figure>
+      </section>
+      <section id="info" class="info-container">
+        <div class="my-interets">
+          <h2>My Interests <span>✌︎</span></h2>
+          <ul>
+            <li class="green">Lesen</li>
+            <li class="gold">Kochen</li>
             <li class="blue">Kraftsport</li>
-            <li class="gold">Reisen</li>
+            <li class="red">Reisen</li>
             <li class="purple">Programmieren</li>
-        </ul>
+          </ul>
         </div>
         <h2>My Skills <span>⚙︎</span></h2>
         <ul>
-            <li class="blue">HTML5</li>
-            <li class="red">CSS3</li>
-            <li class="gold">JavaScript</li>
-            <li class="purple">React</li>
-            <li class="brown">Git</li>
-            <li class="green">NodeJS</li>
+          <li class="red">HTML5</li>
+          <li class="blue">CSS3</li>
+          <li class="gold">JavaScript</li>
+          <li class="purple">React</li>
+          <li class="brown">Git</li>
+          <li class="green">NodeJS</li>
         </ul>
-    </section>
-    <section id="contact" class="contact">
+      </section>
+      <section id="contact" class="contact-container">
         <div class="telefon">
-        <h3>Telefon</h3>
-        <a href="tel:+49-17669657020">017669657020</a>
+          <h3>Phone</h3>
+          <a href="tel:+49-17669657020">017669657020</a>
         </div>
         <h3>Mail</h3>
         <a href="mailto:abdullah.minawal@hotmail.de">a.minawal@hotmail.de</a>
-    </section>
-    <section class="social">
-        <h2>Vistit me on</h2>
-        <a href="https://github.com/minawal">
-            <img src="images/GitHub-Logo.png" alt="Github" width="200" height="auto">
-        </a>
-        <a href="https://codepen.io/Abimi">
-            <img src="images/Codepen-Logo.png" alt="CodePen" width="200" height="auto" class="codepen">
-        </a>
-    </section>
-    <section class="about-me" id="about-me">
+      </section>
+      <section class="social-container">
+        <h3>Vistit me on</h3>
+        <div class="social-logos">
+          <a href="https://github.com/minawal" target="_blank">
+            <img
+              src="images/GitHub-Logo.png"
+              alt="Github"
+              width="150"
+              height="auto"
+            />
+          </a>
+          <a href="https://codepen.io/Abimi" target="_blank">
+            <img
+              src="images/Codepen-Logo.png"
+              alt="CodePen"
+              width="150"
+              height="auto"
+              class="codepen"
+            />
+          </a>
+        </div>
+      </section>
+      <section class="about-me-container" id="about-me">
         <h2>About me</h2>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-           sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-           sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
-           Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-    </section>
-    <section class="cv" id="cv">
-        <h2>CV</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+          ipsum dolor sit amet.
+        </p>
+      </section>
+      <section class="cv" id="cv">
+        <h2>My Bio <span>✍︎</span></h2>
         <table class="cv-table">
-            <tr>
-                <th>Schule</th>
-                <td>Albrecht-Thaer-Gymnasium</td>
-            </tr>
-            <tr>
-                <th>Studium</th>
-                <td>Universität Hamburg</td>
-            </tr>
-            <tr>
-                <th>Arbeit</th>
-                <td>Exomedia GmbH</td>
-            </tr>
+          <tr>
+            <th>School</th>
+            <td>Albrecht-Thaer-Gymnasium</td>
+          </tr>
+          <tr>
+            <th>College</th>
+            <td>University of Hamburg</td>
+          </tr>
+          <tr>
+            <th>Employment</th>
+            <td>Exomedia GmbH</td>
+          </tr>
         </table>
-    </section>
+      </section>
     </main>
     <footer class="footer" id="footer">
-        <p>© 2021 by Abdullah Minawal</p>
+      <p>© 2021 by Abdullah Minawal</p>
     </footer>
-
-</body>
+  </body>
 </html>

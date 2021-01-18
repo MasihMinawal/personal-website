@@ -1,0 +1,29 @@
+@media screen and (max-width: 1023px) {
+  .info {
+    padding: 50px 0;
+    font-weight: bold;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .info__interets {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .info {
+    padding: 10% 5%;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .info__interets {
+    padding: 0 50px;
+  }
+
+  .info__skills {
+    padding: 0 50px;
+  }
+}

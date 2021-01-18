@@ -12,30 +12,30 @@
   </head>
 
   <body>
-    <header>
-      <h1>Abdullah Minawal</h1>
-      <nav class="header-nav">
-        <a href="#info">Info</a>
-        <a href="#contact">Contact</a>
-        <a href="#about-me">About</a>
-        <a href="#cv">Bio</a>
+    <header class="header">
+      <h1 class="header__heading">Abdullah Minawal</h1>
+      <nav class="header__nav">
+        <a href="#info" class="header__link">Info</a>
+        <a href="#contact" class="header__link">Contact</a>
+        <a href="#about-me" class="header__link">About</a>
+        <a href="#cv" class="header__link">Bio</a>
       </nav>
     </header>
     <main>
-      <section class="me-container">
-        <figure class="me-figure">
+      <section class="me">
+        <figure class="me__figure">
           <img
             src="images/Abdullah Minawal.png"
             alt="Das ist Abdullah Minawal"
             width="80%"
             height="auto;"
-            class="me"
+            class="me__img"
           />
-          <figcaption class="me-fig">Hi, ich bin Abdullah!</figcaption>
+          <figcaption class="me__figcap">Hi, ich bin Abdullah!</figcaption>
         </figure>
       </section>
-      <section id="info" class="info-container">
-        <div class="my-interets">
+      <section id="info" class="info">
+        <div class="info__interets">
           <h2>My Interests <span>✌︎</span></h2>
           <ul>
             <li class="green">Lesen</li>
@@ -45,7 +45,7 @@
             <li class="purple">Programmieren</li>
           </ul>
         </div>
-        <div class="my-skills">
+        <div class="info__skills">
           <h2>My Skills <span>⚙︎</span></h2>
           <ul>
             <li class="red">HTML5</li>
@@ -57,35 +57,45 @@
           </ul>
         </div>
       </section>
-      <section id="contact" class="contact-container">
-        <div class="telefon">
+      <section id="contact" class="contact">
+        <div class="contact__telefon">
           <h3>Phone</h3>
-          <a href="tel:+49-17669657020">017669657020</a>
+          <a href="tel:+49-17669657020" class="contact__link">017669657020</a>
         </div>
-        <div class="mail">
+        <div class="contact__mail">
           <h3>Mail</h3>
-          <a href="mailto:a.minawal@outlook.de">a.minawal@outlook.de</a>
+          <a href="mailto:a.minawal@outlook.de" class="contact__link"
+            >a.minawal@outlook.de</a
+          >
         </div>
       </section>
-      <section class="social-container">
+      <section class="social">
         <h3>Vistit me on</h3>
-        <div class="social-logos">
-          <a href="https://github.com/minawal" target="_blank">
+        <div class="social__logos">
+          <a
+            href="https://github.com/minawal"
+            target="_blank"
+            class="social__link"
+          >
             <img
               src="images/GitHub-Logo.png"
               alt="Github"
               width="150"
               height="auto"
-              class="github"
+              class="social__github"
             />
           </a>
-          <a href="https://codepen.io/Abimi" target="_blank">
+          <a
+            href="https://codepen.io/Abimi"
+            target="_blank"
+            class="social__link"
+          >
             <img
               src="images/Codepen-Logo.png"
               alt="CodePen"
               width="150"
               height="auto"
-              class="codepen"
+              class="social__codepen"
             />
           </a>
         </div>

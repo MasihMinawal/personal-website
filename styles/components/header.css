@@ -1,71 +1,68 @@
-@media screen and (max-width: 1023px) {
-  .header {
-    background-color: black;
-    color: white;
-    padding: 30px 0;
-  }
+.header {
+  background-color: black;
+  color: white;
+  padding: 30px 0;
+}
 
-  .header__nav {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    max-width: 500px;
-    margin: 0 auto;
-  }
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
 
-  .header__link {
-    color: white;
-    border-bottom: 1px solid gold;
-  }
+.header__link {
+  color: white;
+  border-bottom: 1px solid gold;
 }
 
 @media screen and (min-width: 1024px) {
   .header {
-    background-color: black;
-    color: white;
     padding: 30px 30px 0;
     display: flex;
     justify-content: space-between;
   }
-  .header__link {
-    color: #fff;
-    padding: 10px 0px;
-    margin: 0 30px;
-    border-bottom: 1px solid gold;
-  }
-}
 
-@media screen and (max-width: 1023px) {
-  .me {
-    background-color: black;
-  }
-
-  .me__figure {
+  .header__nav {
+    display: inline;
+    max-width: auto;
     margin: 0;
   }
 
-  .me__img {
-    display: block;
-    margin: 0 auto;
-    border-radius: 1000px;
-    max-width: 300px;
+  .header__link {
+    padding: 10px 0px;
+    margin: 0 30px;
   }
+}
 
-  .me__figcap {
-    font-family: 'Reenie Beanie', cursive;
-    font-size: 35px;
-    color: gold;
-    padding: 30px;
-  }
+.me {
+  background-color: black;
+}
+
+.me__figure {
+  margin: 0;
+}
+
+.me__img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 1000px;
+  max-width: 300px;
+}
+
+.me__figcap {
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 35px;
+  color: gold;
+  padding: 30px;
 }
 
 @media screen and (min-width: 1024px) {
   .me {
-    background-color: black;
     padding: 5%;
   }
   .me__figure {
-    margin: 0;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -74,12 +71,10 @@
   .me__img {
     width: 30%;
     max-width: 450px;
-    border-radius: 1000px;
+    margin: 0;
   }
 
   .me__figcap {
-    font-family: 'Reenie Beanie', cursive;
     font-size: 50px;
-    color: gold;
   }
 }

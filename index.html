@@ -12,88 +12,98 @@
   </head>
 
   <body>
-    <header>
-      <h1>Abdullah Minawal</h1>
-      <nav class="header-nav">
-        <a href="#info">Info</a>
-        <a href="#contact">Contact</a>
-        <a href="#about-me">About</a>
-        <a href="#cv">Bio</a>
+    <header class="header">
+      <h1 class="header__heading">Abdullah Minawal</h1>
+      <nav class="header__nav">
+        <a href="#info" class="header__link">Info</a>
+        <a href="#contact" class="header__link">Contact</a>
+        <a href="#about-me" class="header__link">About</a>
+        <a href="#cv" class="header__link">Bio</a>
       </nav>
     </header>
     <main>
-      <section class="me-container">
-        <figure class="me-figure">
+      <section class="me">
+        <figure class="me__figure">
           <img
             src="images/Abdullah Minawal.png"
             alt="Das ist Abdullah Minawal"
             width="80%"
             height="auto;"
-            class="me"
+            class="me__img"
           />
-          <figcaption class="me-fig">Hi, ich bin Abdullah!</figcaption>
+          <figcaption class="me__figcap">Hi, ich bin Abdullah!</figcaption>
         </figure>
       </section>
-      <section id="info" class="info-container">
-        <div class="my-interets">
-          <h2>My Interests <span>✌︎</span></h2>
-          <ul>
-            <li class="green">Lesen</li>
-            <li class="gold">Boxen</li>
-            <li class="red">Kraftsport</li>
-            <li class="blue">E-Commerce</li>
-            <li class="purple">Programmieren</li>
+      <section id="info" class="info">
+        <div class="info__interets">
+          <h2 class="info__heading">My Interests <span>✌︎</span></h2>
+          <ul class="info__list">
+            <li class="info__item">Lesen</li>
+            <li class="info__item">Boxen</li>
+            <li class="info__item">Kraftsport</li>
+            <li class="info__item">E-Commerce</li>
+            <li class="info__item">Coding</li>
           </ul>
         </div>
-        <div class="my-skills">
-          <h2>My Skills <span>⚙︎</span></h2>
-          <ul>
-            <li class="red">HTML5</li>
-            <li class="blue">CSS3</li>
-            <li class="gold">JavaScript</li>
-            <li class="purple">React</li>
-            <li class="brown">Git</li>
-            <li class="green">NodeJS</li>
+        <div class="info__skills">
+          <h2 class="info__heading">My Skills <span>⚙︎</span></h2>
+          <ul class="info__list">
+            <li class="info__item">HTML5</li>
+            <li class="info__item">CSS3</li>
+            <li class="info__item">JavaScript</li>
+            <li class="info__item">React</li>
+            <li class="info__item">Git</li>
+            <li class="info__item">NodeJS</li>
           </ul>
         </div>
       </section>
-      <section id="contact" class="contact-container">
-        <div class="telefon">
+      <section id="contact" class="contact">
+        <div class="contact__telefon">
           <h3>Phone</h3>
-          <a href="tel:+49-17669657020">017669657020</a>
+          <a href="tel:+49-17669657020" class="contact__link">017669657020</a>
         </div>
-        <div class="mail">
+        <div class="contact__mail">
           <h3>Mail</h3>
-          <a href="mailto:a.minawal@outlook.de">a.minawal@outlook.de</a>
+          <a href="mailto:a.minawal@outlook.de" class="contact__link"
+            >a.minawal@outlook.de</a
+          >
         </div>
       </section>
-      <section class="social-container">
+      <section class="social">
         <h3>Vistit me on</h3>
-        <div class="social-logos">
-          <a href="https://github.com/minawal" target="_blank">
+        <div class="social__logos">
+          <a
+            href="https://github.com/minawal"
+            target="_blank"
+            class="social__link"
+          >
             <img
               src="images/GitHub-Logo.png"
               alt="Github"
               width="150"
               height="auto"
-              class="github"
+              class="social__github"
             />
           </a>
-          <a href="https://codepen.io/Abimi" target="_blank">
+          <a
+            href="https://codepen.io/Abimi"
+            target="_blank"
+            class="social__link"
+          >
             <img
               src="images/Codepen-Logo.png"
               alt="CodePen"
               width="150"
               height="auto"
-              class="codepen"
+              class="social__codepen"
             />
           </a>
         </div>
       </section>
       <div class="about-bio">
-        <section class="about-me-container" id="about-me">
-          <h2>About me</h2>
-          <p>
+        <section class="about" id="about-me">
+          <h2 class="about__heading">About me</h2>
+          <p class="about__content">
             Hier soll ein Text über mich stehen, den schreib ich erst später.
             Hier soll ein Text über mich stehen, den schreib ich erst später.
             Hier soll ein Text über mich stehen, den schreib ich erst später.
@@ -101,27 +111,27 @@
             Hier soll ein Text über mich stehen, den schreib ich erst später.
           </p>
         </section>
-        <section class="cv" id="cv">
+        <section class="bio" id="cv">
           <h2>My Bio <span>✍︎</span></h2>
-          <table class="cv-table">
-            <tr>
-              <th>School</th>
-              <td>Albrecht-Thaer-Gymnasium</td>
+          <table class="bio__table">
+            <tr class="bio__tr">
+              <th class="bio__th">School</th>
+              <td class="bio__td">Albrecht-Thaer-Gymnasium</td>
             </tr>
-            <tr>
-              <th>College</th>
-              <td>University of Hamburg</td>
+            <tr class="bio__tr">
+              <th class="bio__th">College</th>
+              <td class="bio__td">University of Hamburg</td>
             </tr>
-            <tr>
-              <th>Employment</th>
-              <td>Exomedia GmbH,<br />Ex Consilio KG</td>
+            <tr class="bio__tr">
+              <th class="bio__th">Employment</th>
+              <td class="bio__td">Exomedia GmbH,<br />Ex Consilio KG</td>
             </tr>
           </table>
         </section>
       </div>
     </main>
     <footer class="footer" id="footer">
-      <p>© 2021 by Abdullah Minawal</p>
+      <p class="footer__content">© 2021 by Abdullah Minawal</p>
     </footer>
   </body>
 </html>

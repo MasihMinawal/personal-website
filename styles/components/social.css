@@ -1,0 +1,29 @@
+.social {
+  padding: 50px 0;
+}
+
+.social__logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.social__link {
+  border: none;
+  padding: 30px 30px 0 30px;
+}
+
+@media screen and (min-width: 1024px) {
+  .social {
+    padding: 10%;
+  }
+
+  .social__logos {
+    flex-wrap: nowrap;
+  }
+
+  .social__link {
+    padding: 30px 50px 0 50px;
+  }
+}

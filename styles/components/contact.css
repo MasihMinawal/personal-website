@@ -1,0 +1,31 @@
+.contact {
+  border: 10px solid black;
+  padding: 50px 0;
+  margin: 3px;
+}
+
+.contact__link {
+  color: black;
+  border-bottom: 1px solid black;
+  font-weight: bold;
+}
+
+.contact__telefon {
+  padding-bottom: 30px;
+}
+
+@media screen and (min-width: 1024px) {
+  .contact {
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact__telefon {
+    padding: 0 50px;
+  }
+
+  .contact__mail {
+    padding: 0 50px;
+  }
+}

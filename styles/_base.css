@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 112.5%;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Bebas Neue', cursive;
+  margin: 0;
+}
+
+h1 {
+  color: gold;
+}

@@ -1,0 +1,49 @@
+.info {
+  padding: 50px 0;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.info__list {
+  list-style-type: none;
+  list-style-position: outside;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.info__item {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  margin: 5px 10px;
+  border-radius: 3px;
+}
+
+.info__interets {
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1024px) {
+  .info {
+    padding: 10% 5%;
+    display: flex;
+    justify-content: space-around;
+    max-width: auto;
+    margin: 0 auto;
+  }
+
+  .info__interets {
+    padding: 0 50px;
+    margin-bottom: 0;
+  }
+
+  .info__skills {
+    padding: 0 50px;
+  }
+}

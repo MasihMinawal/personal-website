@@ -29,12 +29,14 @@
     padding: 0 5% 10%;
   }
 }
-.bio {
-  padding: 0;
-}
+@media screen and (min-width: 1024px) {
+  .bio {
+    padding: 0;
+  }
 
-.bio__table {
-  width: auto;
-  max-width: auto;
-  margin: 0;
+  .bio__table {
+    width: auto;
+    max-width: auto;
+    margin: 0;
+  }
 }
